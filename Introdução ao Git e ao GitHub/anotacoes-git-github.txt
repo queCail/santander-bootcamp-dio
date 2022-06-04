@@ -1,0 +1,21 @@
+Definições
+---------------------------------------------------
+Git: sistema de versionamento de código distribuído.
+GitHub: servidor Git.
+
+Comandos Git
+---------------------------------------------------
+clone: cria um clone de um repositório na máquina local
+status: mostra o status do repositório
+commit: cria um commit com as alterações realizadas
+push: "empurra" o código alterado para o servidor
+pull: usado para corrigir conflitos
+
+
+Links
+---------------------------------------------------
+Download Git: https://git-scm.com/downloads
+
+
+
+
