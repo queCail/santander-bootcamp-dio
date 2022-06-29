@@ -1,4 +1,0 @@
-Declarações CSS
---------------------------------
-display: flex - transforma um elemento em um flexbox e seus filhos em flex itens;
-flex-direction:row, flex-direction:row-reverse, flex-direcrtion: column, flex-direction:column-reverse - definem a direção do texto;
