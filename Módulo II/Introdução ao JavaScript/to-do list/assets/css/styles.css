@@ -1,0 +1,75 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h1::after{
+    display: block;
+    content: "";
+    background-color: black;
+    height: 2px;
+    width: 700px;
+    position: relative;
+    margin-top: 3px;
+}
+
+.input-area{
+    margin-top: 30px;
+}
+
+.input-area input{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 2px;
+    min-width: 250px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.input-area button {
+    color: rgb(0, 60, 255);
+    background-color: rgb(162, 195, 255);
+    border: 1px solid rgb(0, 60, 255);
+    min-height: 20px;
+    min-width: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#taskList {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey ;
+    border-radius: 5px;
+    min-width: 300px;
+    min-height: 300px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.taskItem{
+    display: flex;
+    align-items: center;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }

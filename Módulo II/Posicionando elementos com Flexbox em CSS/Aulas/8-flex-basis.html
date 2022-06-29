@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fundamentos - flex basis</title>
+        <style>
+            .container{
+                display: flex;
+                border: 1px solid black;
+                max-width: 500px;
+            }
+
+            .item {
+                background-color: coral;
+                margin: 5px;
+                text-align: center;
+                color: white;
+            }
+
+            .b-auto{
+                flex-basis: auto;
+            }
+
+            .b-0{
+                flex-basis: 0;
+            }
+
+            .fg-0{
+                flex-grow: 0;
+            }      
+
+            .fg-1{
+                flex-grow: 1;
+            }
+
+            .fg-2{
+                flex-grow: 2;
+            }
+
+            .w100{
+                flex-basis: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tamanho que é usado como base no flex-grow e no flex-shrink</h1>
+        <h2>flex-basis: auto</h2>
+        <div class="container">
+            <div class="item b-auto fg-1">A</div>
+            <div class="item b-auto fg-1">BBB</div>
+            <div class="item b-auto fg-1">C</div>
+            <div class="item b-auto fg-2">DEF</div>
+        </div>
+
+        <h2>flex-basis: 0</h2>
+        <div class="container">
+            <div class="item b-0 fg-1">AAAAAAAAA</div>
+            <div class="item b-0 fg-1">BBB</div>
+            <div class="item b-0 fg-1">C</div>
+            <div class="item b-0 fg-1">DEF</div>
+        </div>
+
+        <h2>flex-basis: largura definida</h2>
+        <div class="container">
+            <div class="item w100 fg-2">AAA</div>
+            <div class="item w100 fg-2">BBB</div>
+            <div class="item w100 fg-2">CCC</div>
+            <div class="item w100 fg-2">DEF</div>
+        </div>
+
+    </body>
+</html>

@@ -5,4 +5,9 @@ Este repositório foi criado como forma de compartilhar anotações e resoluçõ
 
 ## Estrutura
 
-Cada pasta do repositório corresponde a um curso que compõe o Bootcamp e dentro de cada uma delas estão os arquivos criados durante o seu respectivo curso.
+A pasta de cada módulo que compõe o Bootcamp contém os seus respectivos cursos e arquivos criados durante o desenvolvimento das atividades.
+
+## Projetos em links externos
+ - [Página inicial do Instagram](https://github.com/queCail/instagram-homepage-clone)
+ - [Desafios TypeScript](https://github.com/queCail/desafios-typescript)
+
