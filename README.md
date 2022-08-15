@@ -11,10 +11,10 @@ A pasta de cada módulo que compõe o Bootcamp contém os seus respectivos curso
  - [Página inicial do Instagram](https://github.com/queCail/instagram-homepage-clone)
  - [Desafios TypeScript](https://github.com/queCail/desafios-typescript)
 
-- [PetPics]([queCail/PetPics (github.com)](https://github.com/queCail/PetPics))
+- [PetPics](https://github.com/queCail/PetPics)
 
-- [Banco digital em Java]([queCail/banco-dio (github.com)](https://github.com/queCail/banco-dio))
+- [Banco digital em Java](https://github.com/queCail/banco-dio)
 
-- [Padrões de projetos em Java]([queCail/desafio-padroes-projetos-dio (github.com)](https://github.com/queCail/desafio-padroes-projetos-dio))
+- [Padrões de projetos em Java](https://github.com/queCail/desafio-padroes-projetos-dio)
 
   
